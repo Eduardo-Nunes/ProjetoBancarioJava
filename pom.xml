@@ -8,8 +8,12 @@
     <groupId>com.bank</groupId>
     <artifactId>bank-system-java</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
     <name>Bank System Java</name>
     <description>Simple Bank System using Java with SQLite</description>
+    <modules>
+        <module>com.bank</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
